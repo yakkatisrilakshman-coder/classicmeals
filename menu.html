@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menu – Classic Meals</title>
+<meta name="description" content="Browse the Classic Meals menu with prices, categories and search.">
+<meta name="theme-color" content="#c8621b">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap">
+<a class="logo" href="index.html" aria-label="Classic Meals home">Classic <span>Meals</span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="menu.html" aria-current="page">Menu</a><a href="contact.html">Contact</a></nav>
+</div>
+</header>
+<main id="main">
+<section class="first"><div class="wrap">
+<h1>Our menu</h1>
+<p class="sub">Prices are sample values until the owner confirms them.</p>
+<div class="tools">
+<input id="q" type="search" placeholder="Search food, for example “biryani”" aria-label="Search the menu">
+<label class="vegonly"><input type="checkbox" id="veg"> Vegetarian only</label>
+</div>
+<div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+<p class="note" id="count" aria-live="polite"></p>
+<div class="grid" id="menugrid" aria-live="polite"></div>
+<p id="empty">No items match your search. Try a different word or choose “All”.</p>
+<p class="note mt">Veg and non-veg marks and prices are samples for the owner to confirm. Please ask us about ingredients and allergies. To order, please call us or visit the <a href="contact.html">contact page</a>.</p>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div>
+<strong>Classic Meals</strong><br>[Hotel address – to be added]<br>[Phone number – to be added]
+</div>
+<div>Open daily: 7:00 am – 10:00 pm (sample)</div>
+<div>© Classic Meals<br>Privacy policy · Terms (to be added)</div>
+</div></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
